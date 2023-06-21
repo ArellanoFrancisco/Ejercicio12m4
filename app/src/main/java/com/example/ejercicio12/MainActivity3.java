@@ -2,6 +2,7 @@ package com.example.ejercicio12;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebSettings;
@@ -28,5 +29,12 @@ public class MainActivity3 extends AppCompatActivity  {
         myWebView.setWebViewClient(new WebViewClient());
         myWebView.loadUrl("https://goo.gl/maps/JGGtoBco81vEJRnu7");
 
+        binding.button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(MainActivity3.this, MainActivity2.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button3"
             android:layout_width="90dp"
             android:layout_height="60dp"
             android:layout_gravity="start"
@@ -49,23 +49,6 @@
             tools:layout_editor_absoluteY="21dp" />
 
     </androidx.appcompat.widget.Toolbar>
-
-    <ImageView
-        android:id="@+id/mapa"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="100dp"
-        android:contentDescription="@string/location"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/mapa"
-        tools:visibility="gone" />
-
     <WebView
         android:id="@+id/Web1"
         android:layout_width="0dp"
