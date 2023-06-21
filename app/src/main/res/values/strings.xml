@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejercicio12</string>
+    <string name="Welcome">Food App</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="Menu">Menu</string>
+    <string name="Map">Map</string>
+    <string name="location">Location</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejercicio12</string>
+    <string name="Welcome">Aplicación de comida</string>
+    <string name="next">Siguiente</string>
+    <string name="back">Atras</string>
+    <string name="Menu">Menu</string>
+    <string name="Map">Mapa</string>
+    <string name="location">Ubicacion</string>
+</resources>
